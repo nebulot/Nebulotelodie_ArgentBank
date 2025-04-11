@@ -6,8 +6,8 @@ import { Routes , Route } from "react-router-dom";
 <Route path='/profile' element={<User />} /> 
 */
 
-import Index from './views/Index';
-import Footer from './components/footer/Footer';
+import Index from './view/Index';
+import Footer from './components/Footer';
 
 //import SignIn from './views/Signin/SignIn';
 //import User from './views/User/User'

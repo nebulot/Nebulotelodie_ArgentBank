@@ -2,6 +2,8 @@ import React, { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom';
 import { useSelector  } from 'react-redux';
 
+import Nav from '../components/Nav';
+
 /**
  * Creates Index page component
  * @returns { HTMLElement }
@@ -20,6 +22,7 @@ const Index = () => {
       },[token, navigate,logoClick])
       return (
       <>
+       <Nav />
 <main className='main'>
 
 </main>
