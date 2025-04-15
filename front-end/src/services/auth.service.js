@@ -23,6 +23,8 @@ const BASE_URL = "http://localhost:3001/api/v1";
  * @returns { Object }
  */
 const login = (email, password, rememberMe) => (dispatch) => {
+  console.log("LOGIN DEBUG ➜", { email, password });
+
   axios
     .post(BASE_URL + "/user/login", { email, password })
     .then((response) => {

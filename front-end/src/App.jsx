@@ -3,17 +3,10 @@ import { Routes , Route } from "react-router-dom";
 
 
 
-/*
-**
-<Route path='/profile' element={<User />} /> 
-*/
-
 import Index from './view/Index';
 import Footer from './components/Footer';
 import SignIn from './view/SignIn';
-
-
-//import User from './views/User/User'
+import User from './view/User';
 
 
 /**
@@ -26,6 +19,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Index />} />
         <Route path='/login' element={<SignIn />} />
+        <Route path='/profile' element={<User />} />
        
       </Routes>
       <Footer />
