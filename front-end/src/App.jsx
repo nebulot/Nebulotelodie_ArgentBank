@@ -10,7 +10,7 @@ import { Routes , Route } from "react-router-dom";
 
 import Index from './view/Index';
 import Footer from './components/Footer';
-import SignIn from './views/SignIn';
+import SignIn from './view/SignIn';
 
 
 //import User from './views/User/User'
