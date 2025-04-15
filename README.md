@@ -36,16 +36,22 @@ Objectif premier mettre en place un dashboard :
 
 ## 📋 Installation du projet : </br>
 
-### Prérequis
+## ⚙️ Prerequisites
 
-- **Visual Studio Code** : code editor
-- **Node** : for running commands
-- **Git** : for creating repositories and commits
-- **React** : a JavaScript framework for websites development
-- **React-router-dom** : the navigation library for React `npm install react-router-dom`
-- **Prop-types** : define your components props types `npm install prop-types`
-- **Axios** : Make API requests with Axios `npm install axios`
-- **Redux-Toolkit** : Manage your state application with Redux-Toolkit `npm install @reduxjs/toolkit`
+- **MongoDB**: NoSQL document-based database  
+  👉 Download MongoDB Community Edition here: [https://www.mongodb.com/try/download/community](https://www.mongodb.com/try/download/community)
+
+- **React-router-dom**: the navigation library for React  
+  `npm install react-router-dom`
+
+- **Prop-types**: define your components' prop types  
+  `npm install prop-types`
+
+- **Axios**: make API requests with Axios  
+  `npm install axios`
+
+- **Redux-Toolkit**: manage your application state  
+  `npm install @reduxjs/toolkit`
 
 ### Installation et lancement du _Back-End_
 
@@ -60,8 +66,8 @@ puis => 'npm run dev:server'</br>
 
 ### Installation et lancement du _Front-End_
 
-1️⃣ Clonez le repositorie _SportSee_ :</br>
-`git clone https://github.com/nebulot/Nebulotelodie_SportSee`</br>
+1️⃣ Le repositorie ci-dessous à été cloner passer au n°2 _ArgentBank_ :</br>
+`git clone https://github.com/nebulot/Nebulotelodie_ArgentBank`</br>
 2️⃣ Allez dans votre terminal, puis ouvrer :</br>
 cd Front-End</br>
 3️⃣ En se plaçant dans ce repo du _Front-End_, installer ses dépendances : </br>'npm install'</br>
@@ -77,86 +83,103 @@ Sass - Préprocesseur CSS</br>
 React 18 - Bibliothèque JavaScript gratuite et open-source développée par Facebook</br>
 Create React App - Outil créé par Facebook, qui est la référence pour initier un projet React</br>
 React Router V6 - Bibliothèque de routage pour React</br>
-Recharts - Bibliothèque de graphiques pour React</br>
 Prop-types - Package utilisé pour documenter les types de propriétés attendus dans les composants React</br>
 JSDoc - Générateur de documentation pour JavaScript</br>
 GitHub - Outil de gestion de version</br>
 GitHub Pages - Outil d’hébergement</br>
+Node.js - Environnement d’exécution JavaScript côté serveur</br>
+MongoDB - Base de données NoSQL orientée documents</br>
+Postman - Outil pour tester les API REST</br>
 
-\*\*🔗 Liens : </br>
+# Project "Argent Bank" </br>
 
-=> W3C validator
-[Liens W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnebulot.github.io%2FNebulotelodie_SportSee%2F)
+The goal of this project is to implement the front-end of a banking application using React.
 
----
+## 🎯 Objectif : </br>
 
-# "SportSee Project" </br>
+You’ve just joined Argent Bank as a front-end developer. Argent Bank is a new online bank looking to make a name for itself in the banking industry. You will be working with Mila, the project manager, on setting up the user dashboard.
 
-The SportSee application, a startup dedicated to sports coaching.
+Main objective: build a dashboard:
 
-## 🎯 Goal : </br>
+** Use React to create the application **
+** Responsive site **
+** Use React Router to manage application routes **
+** Use Redux to manage global application state **
+** Apply Green IT best practices **
+** Provide API routes for transaction operations using Swagger **
 
-The project is to develop an analytics dashboard using React.
-This demo highlights the dashboard of a selected user; for testing purposes, we will use only two users.
-The company is launching a new version of the user profile page. This page will allow users to track the number of sessions completed and the number of calories burned.
+## Comptes / Login
 
-Use the toggle button to switch between user 12 and user 18, then click on Profile.
+| Prénom | Nom    | Email            | Mot de passe |
+| ------ | ------ | ---------------- | ------------ |
+| Tony   | Stark  | tony@stark.com   | password123  |
+| Steve  | Rogers | steve@rogers.com | password456  |
 
-## 📱 Figma mockup view below: : </br>
+## 📱 Application Views shown below : </br>
 
-[Figma Link](https://www.figma.com/design/BMomGVZqLZb811mDMShpLu/UI-design-Sportify-FR?node-id=0-1&p=f&t=Z9RwXQsRR5o0TR4p-0)
+![Wireframe - Edit User Name](./Back-End/designs/wireframes/edit-user-name.png)
 
-## 🗂️ Provided elements: : </br>
+## 📱 Postman Test View : </br>
 
-    UX/UI Figma mockups
-    Back-End repository to fork below
-    [Back-End](https://github.com/OpenClassrooms-Student-Center/SportSee)
-    The SportSee API only provides data for users 12 and 18.
-    The _Back-End_ ReadMe contains information on installation and Docker setup.
-    [Back-End](https://www.docker.com/products/docker-desktop/)
+![Postman test](./Front-End/src/assets/img/bodyjsonpostmanretouremail.jpg)
 
-## 📋 Project installation: : </br>
+## 📱 MongoDB View : </br>
 
-### Prerequisites
+![mongoDB compass](./Front-End/src/assets/img/mangodb2users.jpg)
 
-- [NodeJS (**version 12.18**)](https://nodejs.org/en/)
-- [npm](https://www.npmjs.com/)
+## 📋 Installation du projet : </br>
 
-Installing and running the Back-End
+## ⚙️ Prerequisites
 
-1️⃣ Clone the SportSee repository:</br>
-git clone https://github.com/nebulot/Nebulotelodie_SportSee </br>
-2️⃣ Open your terminal, then navigate to:</br>
-cd Back-End </br>
-3️⃣ Inside the Back-End repository, install dependencies: </br>
-npm install </br>
-4️⃣ Start the Back-End on port 3000 (default port): </br>
-npm run start </br>
-Installing and running the Front-End </br>
+- **MongoDB**: NoSQL document-based database  
+  👉 Download MongoDB Community Edition here: [https://www.mongodb.com/try/download/community](https://www.mongodb.com/try/download/community)
 
-1️⃣ Clone the SportSee repository: </br>
-git clone https://github.com/nebulot/Nebulotelodie_SportSee </br>
-2️⃣ Open your terminal, then navigate to: </br>
-cd Front-End </br>
-3️⃣ Inside the Front-End repository, install dependencies: </br>
-npm install </br>
-4️⃣ Start the Front-End on port 3001 (default port 3000 is used by the Back-End; your terminal will prompt you to switch to the next available port (Y/O) → select Y):</br>
+- **React-router-dom**: the navigation library for React  
+  `npm install react-router-dom`
+
+- **Prop-types**: define your components' prop types  
+  `npm install prop-types`
+
+- **Axios**: make API requests with Axios  
+  `npm install axios`
+
+- **Redux-Toolkit**: manage your application state  
+  `npm install @reduxjs/toolkit`
+
+## Back-End Installation & Launch
+
+1️⃣ Clone the ArgentBank repository: </br>
+git clone `git clone https://github.com/nebulot/Nebulotelodie_ArgentBank`</br>
+2️⃣ In your terminal, open the following folder: </br>
+cd Back-End</br>
+3️⃣ While in the Back-End repo, install dependencies: </br>
+npm install</br>
+4️⃣ Launch the Back-End on port 3000 (default port): </br>
+npm run dev:server</br>
+
+## Front-End Installation & Launch
+
+1️⃣ After cloning the repository above, continue with step 2 for the ArgentBank project: </br>
+git clone `git clone https://github.com/nebulot/Nebulotelodie_ArgentBank`</br>
+2️⃣ In your terminal, open the following folder: </br>
+cd Front-End</br>
+3️⃣ While in the Front-End repo, install dependencies: </br>
+npm install</br>
+4️⃣ Launch the Front-End on port 3001 (port 3000 is already used by your Back-End, your terminal will prompt you to use the next available port => choose Y): </br>
 npm start</br>
 
-The Front-End is now accessible at http://localhost:3001.
-💻 Developed with: </br>
+The Front-End will be accessible at `http://localhost:3001`.
 
-Visual Studio Code - Text editor </br>
-Sass - CSS preprocessor </br>
+## 💻 Developed with : </br>
+
+Visual Studio Code - Code editor</br>
+Sass - CSS preprocessor</br>
 React 18 - Free and open-source JavaScript library developed by Facebook</br>
-Create React App - Toolkit created by Facebook, which is the reference for initiating a React project </br>
+Create React App - Tool created by Facebook, used to bootstrap React projects</br>
 React Router V6 - Routing library for React</br>
-Recharts - A charting library for React</br>
-Prop-types - A package used to document the intended types of properties passed to React components </br>
-JSDoc - Documentation generator for JavaScript </br>
-GitHub - Version control tool </br>
-GitHub Pages - Hosting tool </br>
-\*\*🔗 Liens : </br>
-
-=> W3C validator
-[ W3C Link](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnebulot.github.io%2FNebulotelodie_SportSee%2F)
+Prop-types - Package used to document expected property types in React components</br> JSDoc - Documentation generator for JavaScript</br>
+GitHub - Version control platform</br>
+GitHub Pages - Hosting service</br>
+Node.js - JavaScript runtime environment on the server side</br>
+MongoDB - Document-oriented NoSQL database</br>
+Postman - Tool for testing REST APIs</br>
