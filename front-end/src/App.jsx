@@ -1,15 +1,18 @@
 import './App.scss';
 import { Routes , Route } from "react-router-dom";
 
+
+
 /*
-**<Route path='/login' element={<SignIn />} />
+**
 <Route path='/profile' element={<User />} /> 
 */
 
 import Index from './view/Index';
 import Footer from './components/Footer';
+import SignIn from './views/SignIn';
 
-//import SignIn from './views/Signin/SignIn';
+
 //import User from './views/User/User'
 
 
@@ -22,6 +25,7 @@ function App() {
     <>
       <Routes>
         <Route path='/' element={<Index />} />
+        <Route path='/login' element={<SignIn />} />
        
       </Routes>
       <Footer />
