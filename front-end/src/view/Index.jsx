@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { useSelector  } from 'react-redux';
 
 import Nav from '../components/Nav';
+import Hero from '../components/Hero'
 
 /**
  * Creates Index page component
@@ -21,11 +22,12 @@ const Index = () => {
         }
       },[token, navigate,logoClick])
       return (
-      <>
-       <Nav />
-<main className='main'>
-
-</main>
+        <>
+            <Nav />
+            <main className='main'>
+                <Hero />
+                <Features />
+            </main>
         </>
        
 )}
