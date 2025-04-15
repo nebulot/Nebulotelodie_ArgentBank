@@ -3,7 +3,9 @@ import { useNavigate } from 'react-router-dom';
 import { useSelector  } from 'react-redux';
 
 import Nav from '../components/Nav';
-import Hero from '../components/Hero'
+import Hero from '../components/Hero';
+import Features from '../containers/Features';
+
 
 /**
  * Creates Index page component
